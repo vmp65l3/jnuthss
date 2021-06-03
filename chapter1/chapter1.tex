@@ -1,0 +1,23 @@
+\chapter{介绍}
+
+\section{格式}
+
+格式主要参考自\textcolor{blue}{\href{https://law.jnu.edu.cn/\_upload/article/files/7f/3f/2212fa15450fbdf616c77b56ed00/107e1dae-6ce2-496d-96bf-fe013defe8c4.pdf}{暨南大学学位论文格式要求}}。
+
+%\zhlipsum[1-10]
+
+
+\section{列表环境}
+\begin{enumerate}
+	\item 1
+    \item 2
+\end{enumerate}
+
+
+\section{插图}
+
+插图功能是利用 \TeX\ 的特定编译程序提供的机制实现的，不同的编译程序支持不同的图
+形方式。有的同学可能听说“LaTeX只支持 EPS”，事实上这种说法是不准确的。LaTeX可以很方便地插入 EPS、PDF、PNG、JPEG 格式的图片。
+
+一般图形都是处在浮动环境中。之所以称为浮动是指最终排版效果图形的位置不一定与源文
+件中的位置对应，这也是刚使用 LaTeX同学可能遇到的问题。如果要强制固定浮动图形的位置，请使用 float 宏包，它提供了 \texttt{[H]} 参数\cite{tex}。
